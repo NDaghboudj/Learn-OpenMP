@@ -1,2 +1,3 @@
-# Learn-OpenMP
-Learn "High Performance Parallel Computing" with OpenMP Step by Step.
+# What is the reason for this repo?
+
+This repository stands for introducing students, engineers and researchers to OpenMP helping them to optimize their algorithms thus their code to get top performance.
