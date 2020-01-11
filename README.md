@@ -1,2 +1,2 @@
 # Learn-OpenMP
-Learn OpenMP Step by Step
+Learn "High Performance Parallel Computing" with OpenMP Step by Step.
