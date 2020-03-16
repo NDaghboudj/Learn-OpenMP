@@ -30,7 +30,7 @@ int main()
     // Returns non-zero integer if running in parallel, and zero otherwise
     printf("In Parallel:          %i\n", omp_in_parallel());
 
-	return 0;
+    return 0;
 }
 
 
