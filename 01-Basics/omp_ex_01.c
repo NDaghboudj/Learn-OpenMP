@@ -16,7 +16,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 int main()
 {
     // Returns the number of processors the OS does have
-	printf("Number of Processors: %i\n", omp_get_num_procs());
+    printf("Number of Processors: %i\n", omp_get_num_procs());
 
     // Returns the maximum number of threads delivered by the OS
     printf("Maximum Threads:      %i\n", omp_get_max_threads());
