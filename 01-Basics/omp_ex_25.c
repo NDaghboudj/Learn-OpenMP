@@ -26,7 +26,7 @@ int main()
     }
     printf("\n");
     printf("After  a = %i\n", a);
-	return 0;
+    return 0;
 }
 
 

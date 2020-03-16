@@ -20,7 +20,7 @@ int main()
         // Returns the current number of threads
         printf("Number of Threads:    %i\n", omp_get_num_threads());
     }
-	return 0;
+    return 0;
 }
 
 

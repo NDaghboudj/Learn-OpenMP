@@ -21,7 +21,7 @@ int main()
         unsigned id = omp_get_thread_num();
         printf("i = %i from thread: %i\n", i, id);
     }
-	return 0;
+    return 0;
 }
 
 

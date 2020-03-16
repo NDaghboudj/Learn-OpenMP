@@ -50,7 +50,7 @@ int main()
 
     printf("sum(A) = %i\n", sumArray(a, N));
 
-	return 0;
+    return 0;
 }
 
 

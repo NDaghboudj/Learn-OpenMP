@@ -17,7 +17,7 @@ int main()
 {
     // After compiling this code, run it for a couple of times
     // What did you notice?
-	#pragma omp parallel
+    #pragma omp parallel
     {
     	#pragma omp sections
         {
@@ -42,5 +42,5 @@ int main()
             }
         }
     }
-	return 0;
+    return 0;
 }

@@ -16,10 +16,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 int main()
 {
     // Hello World! in parallel
-	#pragma omp parallel
+    #pragma omp parallel
     {
     	printf("Hello World!\n");
     }
     // What's going on?!!!
-	return 0;
+    return 0;
 }

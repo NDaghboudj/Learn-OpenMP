@@ -22,7 +22,7 @@ int main()
             printf("I have been executed by the Master Thread %i\n", omp_get_thread_num());
         }
     }
-	return 0;
+    return 0;
 }
 
 

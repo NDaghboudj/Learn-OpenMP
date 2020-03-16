@@ -15,11 +15,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 int main()
 {
-	#pragma omp parallel
+    #pragma omp parallel
     {
         unsigned int a = 90;
         a += 10 + omp_get_thread_num();
     	printf("a=%i\n", a);
     }
-	return 0;
+    return 0;
 }

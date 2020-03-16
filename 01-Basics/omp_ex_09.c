@@ -21,7 +21,7 @@ int main()
     float dx, dy, dz;
     float distance;
 
-	#pragma omp parallel
+    #pragma omp parallel
     {
     	#pragma omp sections
         {
@@ -44,5 +44,5 @@ int main()
     distance = sqrt(dx * dx + dy * dy + dz * dz);
     printf("%f\n", distance);
     
-	return 0;
+    return 0;
 }

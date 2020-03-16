@@ -16,11 +16,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 int main()
 {
     unsigned int a[] = {90, 90, 90, 90};
-	#pragma omp parallel
+    #pragma omp parallel
     {
         unsigned int id = 0;
         a[id]+= 10 + omp_get_thread_num();
     	printf("a=%i\n", a[id]);
     }
-	return 0;
+    return 0;
 }

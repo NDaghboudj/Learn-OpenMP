@@ -25,7 +25,7 @@ int main()
         printf("Inside a = %i\n", a);
     }
     printf("After  a = %i\n", a);
-	return 0;
+    return 0;
 }
 
 

@@ -55,7 +55,7 @@ int main()
     printArray(b, 16);
     printf("C = ");
     printArray(c, 16);
-	return 0;
+    return 0;
 }
 
 
